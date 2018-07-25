@@ -1,0 +1,46 @@
+.generalContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: %100;
+	width: %100;
+}
+
+.generalContainer .middle{
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+}
+
+.generalContainer .middle .giveUpSection{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.generalContainer .middle .secretWordSection{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.generalContainer .middle .secretWordSection #secretWord{
+	font-size: 80px;
+}
+
+.generalContainer .middle .alphabetSection{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+}
+
+.generalContainer .bottom{
+	display: flex;
+	justify-content: space-around;
+	height: 200px;
+}
+
+.generalContainer .bottom button{
+	width: 150px;
+}
