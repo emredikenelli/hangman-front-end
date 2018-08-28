@@ -4,6 +4,15 @@
 	justify-content: space-between;
 	height: %100;
 	width: %100;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.generalContainer .topBar{
+	background-color: green;
+}
+
+.generalContainer .topBar p{
+	margin-left: 2em;
 }
 
 .generalContainer .middle{
@@ -26,13 +35,19 @@
 }
 
 .generalContainer .middle .secretWordSection #secretWord{
-	font-size: 80px;
+	font-size: 50px;
 }
 
 .generalContainer .middle .alphabetSection{
 	display: flex;
 	flex-wrap: wrap;
 	width: 30%;
+}
+
+.generalContainer .middle .alphabetSection button{
+	border-radius: 10px;
+	height: 40px;
+	width: 23%;
 }
 
 .generalContainer .bottom{
@@ -42,5 +57,6 @@
 }
 
 .generalContainer .bottom button{
+	border-radius: 10px;
 	width: 150px;
 }
